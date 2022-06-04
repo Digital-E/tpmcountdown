@@ -62,3 +62,14 @@
     font-size: 1.3rem;
     margin-top: 50px;
 }
+
+@media(max-width: 576px) {
+    .center-div {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    #pageTimer {
+        font-size: 0.9rem;
+    }
+}
