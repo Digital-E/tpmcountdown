@@ -47,20 +47,32 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .logo {
-    width: 100%;
+    width: 500px;
+}
+
+.text {
+    font-family: "Es Formal Standard Medium";
+    font-size: 1.3rem;
+    margin-top: 50px;
+    text-align: center;
+    width: fit-content;
 }
 
 #pageTimer {
     font-family: "Es Formal Standard Medium";
     font-size: 1.3rem;
-    margin-top: 50px;
+    margin-top: 30px;
+}
+
+strong {
+    font-weight: 100 !important;
 }
 
 @media(max-width: 576px) {
@@ -69,7 +81,7 @@
         padding: 0 20px;
     }
 
-    #pageTimer {
+    #pageTimer, .text {
         font-size: 0.9rem;
     }
 }
